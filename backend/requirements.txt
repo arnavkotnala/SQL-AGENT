@@ -1,0 +1,13 @@
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+SQLAlchemy==2.1.6
+sqlglot==30.25.0
+openpyxl==3.1.5
+google-genai==2.33.0
+pydantic==2.14.1
+pydantic-settings==2.16.1
+python-dotenv==1.2.4
+python-multipart==0.0.32
+# Optional server database drivers (install only what you use):
+# psycopg[binary]   # PostgreSQL  -> postgresql+psycopg://user:pass@host:5432/db
+# pymysql           # MySQL       -> mysql+pymysql://user:pass@host:3306/db

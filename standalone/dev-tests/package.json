@@ -1,0 +1,15 @@
+{
+  "name": "loopsql-standalone-dev-tests",
+  "private": true,
+  "description": "Developer-only checks for ../index.html. Not needed to use the app.",
+  "type": "module",
+  "scripts": {
+    "make-workbook": "node make-school-workbook.mjs",
+    "test": "node run-tests.mjs"
+  },
+  "devDependencies": {
+    "exceljs": "4.4.0",
+    "jsdom": "25.0.1",
+    "sql.js": "1.10.3"
+  }
+}

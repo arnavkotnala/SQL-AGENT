@@ -1,0 +1,16 @@
+# Render Blueprint: New > Blueprint > select this repo. Set GEMINI_API_KEY in the dashboard.
+services:
+  - type: web
+    name: loopsql-ai
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false            # entered in the Render dashboard, never committed
+      - key: GEMINI_MODEL
+        value: gemini-3.8-flash
+      - key: APP_ACCESS_TOKEN
+        generateValue: true    # share this key with your users; stops strangers spending your Gemini quota
+      - key: ALLOW_LOCAL_FILE_PATHS
+        value: "false"

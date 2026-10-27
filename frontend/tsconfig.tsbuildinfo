@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/fileaccess.ts","./src/main.tsx","./src/types.ts","./src/components/changepreview.tsx","./src/components/pendingaction.tsx","./src/components/resultstable.tsx","./src/components/runview.tsx","./src/components/schemaexplorer.tsx","./src/components/sourcepanel.tsx"],"version":"5.6.3"}
